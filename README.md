@@ -1,30 +1,59 @@
-# React + TypeScript + Vite
+### Проект: Web Development Tasks
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+#### FAQ
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
+#### Задание 1: HTML и CSS
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+**Описание:**
+Создание страницы профиля пользователя с элементами:
+- Аватар (изображение)
+- Имя пользователя
+- Краткая информация о пользователе (биография)
+- Контактная информация (email и телефон)
 
-- Configure the top-level `parserOptions` property like this:
+**Требования:**
+- Использование HTML для структуры страницы.
+- Применение CSS для стилизации страницы.
+- Адаптивный дизайн для корректного отображения на мобильных устройствах.
+- Соответствие HTML семантическим стандартам.
+- Визуальная привлекательность и удобство использования.
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+#### Задание 2: JavaScript
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+**Описание:**
+Разработка веб-приложения для списка дел (To-Do List) с возможностями добавления, удаления и отметки заданий как выполненных.
+
+**Требования:**
+- Использование JavaScript для логики приложения.
+- Интерактивность и отзывчивость интерфейса.
+- Базовая валидация (например, предотвращение добавления пустых заданий).
+- Корректность работы JavaScript кода.
+- Чистота и читаемость кода.
+
+#### Задание 3: Git
+
+**Описание:**
+Управление проектом с использованием Git, включая создание репозитория, работу с ветками и Pull Request (PR).
+
+**Требования:**
+- Инициализация репозитория на GitHub с файлом README.md.
+- Создание ветки "develop" для разработки.
+- Создание PR из ветки "develop" в "main" с объяснением внесенных изменений.
+- Корректная работа с ветками и понимание Git.
+
+#### Задание 4: Интеграция с бекендом
+
+**Описание:**
+Создание страницы для отображения данных пользователей, полученных с публичного API, с возможностью открытия подробной информации о каждом пользователе.
+
+**Требования:**
+- Использование fetch API для получения данных с API.
+- Отображение списка пользователей и подробной информации на разных страницах.
+- Интерактивность и удобство использования интерфейса.
+- Корректная обработка и отображение данных с API.
+
+---
+
+Этот проект включает в себя выполнение различных задач по веб-разработке с использованием HTML, CSS, JavaScript, Git и интеграцию с внешним API для отображения данных пользователей.

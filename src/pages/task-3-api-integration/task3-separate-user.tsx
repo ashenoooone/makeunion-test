@@ -21,7 +21,7 @@ export const Task3SeparateUser = () => {
     }
   }, [id]);
   return (
-    <Page>
+    <Page centerContent={isLoading}>
       {user && !isLoading ? (
         <UserProfile user={user} />
       ) : (

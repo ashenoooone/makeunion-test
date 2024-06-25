@@ -18,7 +18,7 @@ export const Task3ApiIntegration = () => {
   }, []);
 
   return (
-    <Page centerContent>
+    <Page centerContent={isLoading}>
       {!isLoading ? (
         <UsersList users={users} />
       ) : (

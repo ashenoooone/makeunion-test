@@ -1,0 +1,14 @@
+.header {
+    padding: 15px 20px;
+    background: var(--color-white);
+}
+
+.container {
+    display: flex;
+    gap: 20px;
+}
+
+.link {
+    font: var(--font-xl);
+    font-weight: bold;
+}
