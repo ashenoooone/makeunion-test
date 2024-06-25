@@ -1,15 +1,10 @@
-import React, {
-  memo,
-  useCallback,
-  useEffect,
-  useState,
-} from 'react';
+import React, { memo, useCallback, useState } from 'react';
 import { Box } from '~/shared/ui/box/box';
 import clsx from 'clsx';
 import cls from './create-todo.module.css';
 import { Typography } from '~/shared/ui/typography/typography';
 import { Input } from '~/shared/ui/input/input';
-import { Button } from '~/shared/ui/button/button';
+import { Button } from '~/shared/ui/button/button.tsx';
 
 interface CreateTodoProps {
   className?: string;
