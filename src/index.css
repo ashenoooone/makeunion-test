@@ -84,3 +84,7 @@
 
     font: var(--font-md);
 }
+
+* {
+    box-sizing: border-box;
+}

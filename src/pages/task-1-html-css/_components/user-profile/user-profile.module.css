@@ -12,3 +12,17 @@
 .user_biography {
     flex-basis: 66%;
 }
+
+@media screen and (max-width: 768px) {
+    .user_info {
+        flex-direction: column;
+    }
+
+    .user_contacts {
+        width: 100%;
+    }
+
+    .user_biography {
+        width: 100%;
+    }
+}
