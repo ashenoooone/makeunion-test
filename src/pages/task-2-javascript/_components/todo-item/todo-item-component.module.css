@@ -1,0 +1,36 @@
+.todo_item {
+  border: 1px solid var(--color-gray-500);
+  border-radius: 8px;
+  padding: 8px 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title {
+}
+
+.button_icon {
+  width: 24px;
+  height: 24px;
+}
+
+.remove_button {
+  cursor: pointer;
+  transition: all ease-in-out 0.2s;
+}
+
+.todo_item_start {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  cursor: pointer;
+}
+
+.remove_button:hover {
+  color: var(--color-red-800);
+}
+
+.title_checked {
+  text-decoration: line-through;
+}
