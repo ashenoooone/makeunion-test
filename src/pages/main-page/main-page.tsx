@@ -28,7 +28,7 @@ const tasks = [
     description:
       'Интеграция с публичным API для отображения списка пользователей.',
     githubLink:
-      'https://github.com/yourusername/project/tree/main/task4_api_integration',
+      'https://github.com/ashenoooone/makeunion-test/tree/main/src/pages/task-3-api-integration',
     viewLink: '/task3_api_integration',
   },
 ];
