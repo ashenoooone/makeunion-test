@@ -1,0 +1,26 @@
+.p {
+  font: var(--font-sm);
+  margin: 0;
+}
+
+.h1 {
+  font: var(--font-xxl);
+  margin: 0;
+  font-weight: 700;
+}
+
+.h2 {
+  font: var(--font-xl);
+  margin: 0;
+  font-weight: 600;
+}
+
+.h3 {
+  font: var(--font-md);
+  margin: 0;
+  font-weight: 500;
+}
+
+.error {
+  color: var(--color-red-700);
+}

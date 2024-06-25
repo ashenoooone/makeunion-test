@@ -1,0 +1,44 @@
+.main_page {
+    padding: 20px;
+}
+
+.title {
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
+}
+
+.description {
+    font: var(--font-md);
+    margin: 5px 0 10px;
+}
+
+.task_list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.task_item {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 10px 0;
+    transition: box-shadow 0.3s ease;
+}
+
+.task_item:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.task_item h2 {
+    margin-top: 0;
+}
+
+.task_links {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
+

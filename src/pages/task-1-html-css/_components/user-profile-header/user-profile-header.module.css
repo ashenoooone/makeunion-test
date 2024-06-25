@@ -1,0 +1,26 @@
+.user_profile_box {
+    display: flex;
+    gap: 1rem;
+    align-items: stretch;
+    justify-content: center;
+    background: linear-gradient(to right, #ffb6c1, #98fb98, #00bfff) !important;
+    padding: 20px;
+}
+
+.avatar_box {
+    width: max-content;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--color-black-20) !important;
+    max-width: 400px;
+}
+
+.name {
+    color: var(--color-white);
+}
+
+.avatar {
+    font: var(--font-xl)
+}

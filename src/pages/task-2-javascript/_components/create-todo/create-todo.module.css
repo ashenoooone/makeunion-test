@@ -1,0 +1,15 @@
+.create_todo {
+  padding: 20px;
+}
+
+.create_todo_container {
+  display: flex;
+  align-items: stretch;
+  margin-top: 10px;
+  gap: 10px;
+}
+
+.input {
+  width: 100%;
+  padding: 10px 10px !important;
+}
