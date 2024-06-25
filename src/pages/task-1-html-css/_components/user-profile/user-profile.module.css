@@ -5,12 +5,18 @@
     align-items: start;
 }
 
-.user_contacts {
-    flex-basis: 33%;
+.column {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
 
-.user_biography {
+.column:first-child {
+    flex-basis: 33%;
+}
+.column:last-child {
     flex-basis: 66%;
+
 }
 
 @media screen and (max-width: 768px) {
@@ -18,11 +24,11 @@
         flex-direction: column;
     }
 
-    .user_contacts {
+    .column:first-child {
         width: 100%;
     }
 
-    .user_biography {
+    .column:last-child {
         width: 100%;
     }
 }

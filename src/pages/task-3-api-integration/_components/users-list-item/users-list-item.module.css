@@ -1,0 +1,9 @@
+.users_list_item {
+    border: 1px solid var(--color-gray-500);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.description {
+    color: var(--color-gray-500);
+}

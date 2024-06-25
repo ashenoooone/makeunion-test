@@ -1,0 +1,13 @@
+.container {
+    padding: 20px;
+}
+
+.title {
+    margin-bottom: 10px;
+}
+
+.users_list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}

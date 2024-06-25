@@ -5,12 +5,14 @@ import { MainPage } from '~/pages/main-page/main-page.tsx';
 import { Task1HtmlCss } from '~/pages/task-1-html-css/task-1-html-css.tsx';
 import { Task2Javascript } from '~/pages/task-2-javascript/task-2-javascript.tsx';
 import { Task3ApiIntegration } from '~/pages/task-3-api-integration/task-3-api-integration.tsx';
+import { Task3SeparateUser } from '~/pages/task-3-api-integration/task3-separate-user.tsx';
 
 export enum Routes {
   MAIN = 'main',
   TASK_1_HTML_CSS = 'task1_html_css',
   TASK_2_JAVASCRIPT = 'task2_javascript',
   TASK_3_API_INTEGRATION = 'task3_api_integration',
+  TASK_3_SEPARATE_USER = 'task3_separate_user',
   NOT_FOUND = 'not_found',
 }
 
@@ -19,6 +21,8 @@ export const RoutesPaths: Record<Routes, string> = {
   [Routes.TASK_1_HTML_CSS]: '/task1_html_css',
   [Routes.TASK_2_JAVASCRIPT]: '/task2_javascript',
   [Routes.TASK_3_API_INTEGRATION]: '/task3_api_integration',
+  [Routes.TASK_3_SEPARATE_USER]:
+    '/task3_api_integration/:id',
   [Routes.NOT_FOUND]: '*',
 };
 
@@ -26,6 +30,10 @@ export const RoutesConfig: Record<Routes, RouteProps> = {
   [Routes.NOT_FOUND]: {
     path: RoutesPaths.not_found,
     element: <NotFoundPage />,
+  },
+  [Routes.TASK_3_SEPARATE_USER]: {
+    path: RoutesPaths.task3_separate_user,
+    element: <Task3SeparateUser />,
   },
   [Routes.TASK_1_HTML_CSS]: {
     path: RoutesPaths.task1_html_css,
