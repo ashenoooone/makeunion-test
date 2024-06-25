@@ -5,9 +5,18 @@ import cls from './page.module.css';
 interface PageProps {
   className?: string;
   children?: ReactNode;
+  centerContent?: boolean;
 }
 
 export const Page = (props: PageProps) => {
-  const { className = '', children } = props;
-  return <div className={clsx(className, cls.page)}>{children}</div>;
+  const { className = '', children, centerContent } = props;
+  return (
+    <div
+      className={clsx(className, cls.page, {
+        [cls.center]: centerContent,
+      })}
+    >
+      {children}
+    </div>
+  );
 };

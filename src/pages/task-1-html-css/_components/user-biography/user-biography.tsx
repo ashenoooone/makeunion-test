@@ -15,7 +15,9 @@ export const UserBiography = memo(
     return (
       <Box className={clsx(className, cls.container)}>
         <Typography variant={'h2'}>Биография</Typography>
-        <Typography>{userBiography}</Typography>
+        <Typography variant={'h3'}>
+          {userBiography ?? '🕵️ Пока пусто'}
+        </Typography>
       </Box>
     );
   },

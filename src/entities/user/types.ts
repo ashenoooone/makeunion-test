@@ -8,13 +8,7 @@ export interface UserType {
   website: string;
   company: Company;
   avatar?: string;
-  contacts?: Contacts;
   biography?: string;
-}
-
-export interface Contacts {
-  email: string;
-  phone: string;
 }
 
 export interface Address {

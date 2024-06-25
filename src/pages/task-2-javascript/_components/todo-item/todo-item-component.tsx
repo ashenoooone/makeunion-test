@@ -3,7 +3,7 @@ import { TodoItem } from '~/entities/todo';
 import clsx from 'clsx';
 import cls from './todo-item-component.module.css';
 import { Typography } from '~/shared/ui/typography/typography.tsx';
-import { Button } from '~/shared/ui/button/button';
+import { Button } from '~/shared/ui/button/button.tsx';
 import { MdDeleteForever } from 'react-icons/md';
 
 interface TodoItemComponentProps {

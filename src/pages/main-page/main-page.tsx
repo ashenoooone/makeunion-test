@@ -10,7 +10,7 @@ const tasks = [
     description:
       'Создание страницы профиля пользователя с использованием HTML и CSS.',
     githubLink:
-      'https://github.com/yourusername/project/tree/main/task1_html_css',
+      'https://github.com/ashenoooone/makeunion-test/tree/main/src/pages/task-1-html-css',
     viewLink: '/task1_html_css',
   },
   {
@@ -19,7 +19,7 @@ const tasks = [
     description:
       'Разработка интерактивного веб-приложения To-Do List.',
     githubLink:
-      'https://github.com/yourusername/project/tree/main/task2_javascript',
+      'https://github.com/ashenoooone/makeunion-test/tree/main/src/pages/task-2-javascript',
     viewLink: '/task2_javascript',
   },
   {
