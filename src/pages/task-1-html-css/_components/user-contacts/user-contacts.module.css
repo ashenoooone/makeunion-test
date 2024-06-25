@@ -1,0 +1,13 @@
+.container {
+    padding: 20px;
+}
+
+.title {
+    margin-bottom: 7px;
+}
+
+.contact {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}

@@ -14,6 +14,7 @@ interface LinkProps extends RLinkProps {
 export const Link = memo((props: LinkProps) => {
   const { className = '', children, to, ...rest } = props;
   return (
+    // todo пофиксить
     <RLink className={clsx(className, cls.link)} to={to} {...rest}>
       {children}
     </RLink>

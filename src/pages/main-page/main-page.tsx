@@ -29,19 +29,21 @@ const tasks = [
       'Интеграция с публичным API для отображения списка пользователей.',
     githubLink:
       'https://github.com/yourusername/project/tree/main/task4_api_integration',
-    viewLink: '/task4_api_integration',
+    viewLink: '/task3_api_integration',
   },
 ];
 export const MainPage = () => {
   return (
     <Page>
-      <div className={cls.mainPage}>
+      <div className={cls.main_page}>
         <h1>Задания</h1>
-        <ul className={cls.taskList}>
+        <ul className={cls.task_links}>
           {tasks.map((task) => (
-            <li key={task.id} className={cls.taskItem}>
-              <h2>{task.title}</h2>
-              <p className={cls.description}>{task.description}</p>
+            <li key={task.id} className={cls.task_item}>
+              <h2 className={cls.title}>{task.title}</h2>
+              <p className={cls.description}>
+                {task.description}
+              </p>
               <div className={cls.task_links}>
                 <Link
                   to={task.githubLink}
@@ -50,9 +52,7 @@ export const MainPage = () => {
                 >
                   GitHub Code
                 </Link>
-                <Link to={task.viewLink} className={cls.viewButton}>
-                  View Implementation
-                </Link>
+                <Link to={task.viewLink}>Реализация</Link>
               </div>
             </li>
           ))}

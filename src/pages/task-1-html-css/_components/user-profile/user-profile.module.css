@@ -1,0 +1,14 @@
+.user_info {
+    display: flex;
+    margin-top: 10px;
+    gap: 10px;
+    align-items: start;
+}
+
+.user_contacts {
+    flex-basis: 33%;
+}
+
+.user_biography {
+    flex-basis: 66%;
+}

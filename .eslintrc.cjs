@@ -14,10 +14,10 @@ module.exports = {
     'import/no-unresolved': [0],
     'import/named': [0],
     'react/display-name': [0],
+    'i18next/no-literal-string': [0],
     'react/prop-types': [0],
     'react/react-in-jsx-scope': [0],
     '@typescript-eslint/no-unused-vars': [0],
-    'i18next/no-literal-string': [1, { markupOnly: true }],
     'react-refresh/only-export-components': [
       'warn',
       { allowConstantExport: true },
